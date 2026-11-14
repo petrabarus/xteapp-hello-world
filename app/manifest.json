@@ -1,0 +1,10 @@
+{
+  "app_id": "helloworld",
+  "display_name": "Hello World",
+  "version": "1.0.0",
+  "author": "petrabarus",
+  "description": "A simple app that shows Hello World.",
+  "entry": "index.lua",
+  "api": "2.0",
+  "permissions": []
+}
