@@ -1,4 +1,4 @@
-"""Build the Hello World app into dist/helloworld.xteapp."""
+"""Build the Hello World app into dist/helloworld.xtapp."""
 import os
 import sys
 
@@ -9,7 +9,7 @@ import xtpack  # noqa: E402
 
 
 def main():
-    out = os.path.join(HERE, "dist", "helloworld.xteapp")
+    out = os.path.join(HERE, "dist", "helloworld.xtapp")
     xtpack.pack(os.path.join(HERE, "app"), out)
 
 

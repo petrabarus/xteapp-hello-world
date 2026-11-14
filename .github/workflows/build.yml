@@ -16,6 +16,6 @@ jobs:
       - run: python build.py
       - uses: actions/upload-artifact@v4
         with:
-          name: helloworld-xteapp
-          path: dist/*.xteapp
+          name: helloworld-xtapp
+          path: dist/*.xtapp
           if-no-files-found: error
