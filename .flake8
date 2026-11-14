@@ -1,0 +1,3 @@
+[flake8]
+# Standard PEP 8 style; third-party code in tools/vendor is left as upstream wrote it
+exclude = .git,dist,tools/vendor
